@@ -1,6 +1,7 @@
 ﻿# AepInfo
 
-![AepInfo.png](AepInfo.png)<br>
+![AepInfoP.png](AepInfoP.png)<br>
+<br>
 aepファイルを読み込んでフッテージの情報を出力します。<br>
 まだテスト段階なのでよく分からないけどとりあえず表示出来る物を表示させてます。<br>
 <br>
