@@ -1,0 +1,42 @@
+レポート作成日 : 
+	2023/03/21	14:03:07
+
+プロジェクト名 : sample.aep
+
+収集されたソースファイル先 : 
+	C:\Users\bryfu\Source\Repos\AepInfo\sample\sample
+
+収集されたソースファイル : すべて
+
+収集されたコンポジション :  
+	コンポ 1
+	コンポ 2
+	Photoshop
+	
+収集されたファイルの数 :  10
+
+収集されたファイルのサイズ :  15.3 MB
+
+収集されたソースファイル : 
+	8 個のファイルと 0 個の予備ファイルを使用した C:\Users\bryfu\Source\Repos\AepInfo\sample\Test\(フッテージ)\dd のシーケンス「IKF61_FCA1_v8_[00001-00008].png」
+	C:\Users\bryfu\Source\Repos\AepInfo\sample\Test\(フッテージ)\IKF61_FCA1_v8_00002.png
+	C:\Users\bryfu\Source\Repos\AepInfo\sample\Test\(フッテージ)\Photoshop.psd
+	
+レンダリングプラグイン:
+	クラシック3D
+	
+使用されたエフェクトの数 :  4
+
+エフェクト :  F's AlphaFix
+	
+エフェクト :  OLM Smoother
+	
+エフェクト :  コーナーピン
+	
+エフェクト :  ノイズ
+	
+
+レイヤー :  テキストレイヤー
+	外部依存 :  
+		フォントファミリー : 「MS UI Gothic」、フォントスタイル : 「Regular」
+

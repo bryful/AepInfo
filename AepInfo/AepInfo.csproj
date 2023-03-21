@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ctrl\T_BaseControl.cs" />
+    <Compile Remove="ctrl\T_BaseControl.Designer.cs" />
+    <Compile Remove="ctrl\T_G.cs" />
+    <Compile Remove="ctrl\T_MyFonts.cs" />
+    <Compile Remove="ctrl\T_MyFonts.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="ctrl\T_BaseControl.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ctrl\T_BaseControl.cs" />
+    <None Include="ctrl\T_BaseControl.Designer.cs" />
+    <None Include="ctrl\T_BaseControl.resx" />
+    <None Include="ctrl\T_G.cs" />
+    <None Include="ctrl\T_MyFonts.cs" />
+    <None Include="ctrl\T_MyFonts.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
